@@ -1,0 +1,7 @@
+To run for different channels FILEDIR needs to be set as an env variable!
+Since this will be set to the configured bins directory, we will need to set it differently 
+for the different channels unless we just bin both and put a cut on TOPO.
+
+
+
+

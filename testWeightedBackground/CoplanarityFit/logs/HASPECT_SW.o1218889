@@ -1,0 +1,58 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+  PID TTY          TIME CMD
+  306 ?        00:00:00 1218876.nplse.p
+  319 ?        00:00:00 root
+  320 ?        00:00:02 root.exe
+  375 ?        00:00:00 tcsh
+  416 ?        00:00:00 1218877.nplse.p
+  430 ?        00:00:00 root
+  431 ?        00:00:02 root.exe
+  650 ?        00:00:00 sh
+  651 ?        00:00:00 c++
+  652 ?        00:00:02 cc1plus
+  653 ?        00:00:00 as
+  654 ?        00:00:00 sh
+  655 ?        00:00:00 c++
+  656 ?        00:00:02 cc1plus
+  657 ?        00:00:00 as
+  658 ?        00:00:00 tcsh
+  678 ?        00:00:00 ps
+32738 ?        00:00:00 tcsh
+/mnt/share/cern_CentOS7/Geant4-10.2.3-Linux/share/Geant4-10.2.3/geant4make
+Cern Root /cern/root/v6.08.06/
+AcquRoot /home/chris/acqu/acqu_user/
+GeantWorkDir /home/chris/a2geant/
+HaspectDir /home/chris/Docs/haspy/LatestFitting/Jan8th2017/HASPECT6/HaSpect/
+FILEDIR /w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolNeg
+  PID TTY          TIME CMD
+  306 ?        00:00:00 1218876.nplse.p
+  319 ?        00:00:00 root
+  320 ?        00:00:02 root.exe
+  375 ?        00:00:00 tcsh
+  416 ?        00:00:00 1218877.nplse.p
+  430 ?        00:00:00 root
+  431 ?        00:00:02 root.exe
+  650 ?        00:00:00 sh
+  651 ?        00:00:00 c++
+  652 ?        00:00:02 cc1plus
+  653 ?        00:00:00 as
+  654 ?        00:00:00 sh
+  658 ?        00:00:00 tcsh
+  698 ?        00:00:00 1218889.nplse.p
+  699 ?        00:00:00 c++
+  700 ?        00:00:00 collect2
+  701 ?        00:00:00 ld
+  714 ?        00:00:00 ps
+32738 ?        00:00:00 tcsh
+ analysing bin  Topo0.50_W1535.00_Costh-0.25_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_
+npcf05
+/w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolNeg
+total 1.5M
+-rw-r--r-- 1 chris users  30K Feb 21 11:14 FarmTopo0.50_W1535.00_Costh-0.25_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_.log
+drwxr-xr-x 2 chris users 4.0K Feb 21 11:13 hsana
+-rw-r--r-- 1 chris users 110K Feb 21 11:14 ResultsTopo0.50_W1535.00_Costh-0.25_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_.root
+-rw-r--r-- 1 chris users 1.3M Feb 21 11:14 WeightsTopo0.50_W1535.00_Costh-0.25_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_.root
+all done and tidied up
+total 4.0K
+drwxr-xr-x 2 chris users 4.0K Feb 21 05:06 temp

@@ -1,0 +1,38 @@
+#!/bin/tcsh
+#PBS -N HASPECT_SW
+#PBS -m abe 
+#PBS -M c.mullen.2@research.gla.ac.uk
+#PBS -l walltime=100:00:00
+#PBS -V
+#Make a directory to work in
+mkdir -p /scratch/chris/$JOBNAME
+cd /scratch/chris/$JOBNAME
+
+echo ' analysing bin ' $JOBNAME
+echo $HOST
+
+#set env variables
+setenv INPUT "Farm"$JOBNAME".root"
+setenv LOG "Farm"$JOBNAME".log"
+
+root -l -b -q --farm --hsfit '$RUNMAC'  >& $LOG
+
+#copy output files to destination
+scp Results* $FILEDIR/$FITNAME
+scp Weights* $FILEDIR/$FITNAME
+scp $LOG $FILEDIR/$FITNAME
+
+
+
+
+echo $FILEDIR
+
+ls -lh 
+
+#tidy up
+cd ../
+rm -r $JOBNAME
+
+echo 'all done and tidied up'
+
+

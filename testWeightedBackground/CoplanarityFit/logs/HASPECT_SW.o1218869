@@ -1,0 +1,45 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+  PID TTY          TIME CMD
+ 1675 ?        00:00:00 tcsh
+ 1711 ?        00:00:00 1218867.nplse.p
+ 1721 ?        00:00:00 root
+ 1722 ?        00:00:01 root.exe
+ 1748 ?        00:00:00 tcsh
+ 1784 ?        00:00:00 1218868.nplse.p
+ 1794 ?        00:00:00 root
+ 1795 ?        00:00:00 root.exe
+ 1822 ?        00:00:02 rootcling
+ 1828 ?        00:00:00 tcsh
+ 1846 ?        00:00:00 ps
+/mnt/share/cern_CentOS7/Geant4-10.2.3-Linux/share/Geant4-10.2.3/geant4make
+Cern Root /cern/root/v6.08.06/
+AcquRoot /home/chris/acqu/acqu_user/
+GeantWorkDir /home/chris/a2geant/
+HaspectDir /home/chris/Docs/haspy/LatestFitting/Jan8th2017/HASPECT6/HaSpect/
+FILEDIR /w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolNeg
+  PID TTY          TIME CMD
+ 1675 ?        00:00:00 tcsh
+ 1711 ?        00:00:00 1218867.nplse.p
+ 1721 ?        00:00:00 root
+ 1722 ?        00:00:01 root.exe
+ 1748 ?        00:00:00 tcsh
+ 1784 ?        00:00:00 1218868.nplse.p
+ 1794 ?        00:00:00 root
+ 1795 ?        00:00:00 root.exe
+ 1822 ?        00:00:02 rootcling
+ 1828 ?        00:00:00 tcsh
+ 1868 ?        00:00:00 1218869.nplse.p
+ 1875 ?        00:00:00 rootcling
+ 1881 ?        00:00:00 ps
+ analysing bin  Topo0.50_W1445.00_Costh-0.25_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_
+npcf11
+/w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolNeg
+total 2.2M
+-rw-r--r-- 1 chris users  30K Feb 21 11:13 FarmTopo0.50_W1445.00_Costh-0.25_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_.log
+drwxr-xr-x 2 chris users 4.0K Feb 21 11:12 hsana
+-rw-r--r-- 1 chris users 111K Feb 21 11:13 ResultsTopo0.50_W1445.00_Costh-0.25_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_.root
+-rw-r--r-- 1 chris users 2.1M Feb 21 11:13 WeightsTopo0.50_W1445.00_Costh-0.25_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_.root
+all done and tidied up
+total 4.0K
+drwxr-xr-x 2 chris users 4.0K Feb 21 05:17 temp

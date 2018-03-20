@@ -1,0 +1,27 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+  PID TTY          TIME CMD
+19939 ?        00:00:00 tcsh
+19976 ?        00:00:00 1193942.nplse.p
+19986 ?        00:00:00 root
+19987 ?        00:00:01 root.exe
+20178 ?        00:00:00 rootcling
+20181 ?        00:00:00 tcsh
+20199 ?        00:00:00 ps
+/mnt/share/cern_CentOS7/Geant4-10.2.3-Linux/share/Geant4-10.2.3/geant4make
+Cern Root /cern/root/v6.08.06/
+AcquRoot /home/chris/acqu/acqu_user/
+GeantWorkDir /home/chris/a2geant/
+HaspectDir /home/chris/Docs/haspy/LatestFitting/Jan8th2017/HASPECT6/HaSpect/
+FILEDIR /w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolPos
+  PID TTY          TIME CMD
+19939 ?        00:00:00 tcsh
+19976 ?        00:00:00 1193942.nplse.p
+19986 ?        00:00:00 root
+19987 ?        00:00:01 root.exe
+20178 ?        00:00:01 rootcling
+20181 ?        00:00:00 tcsh
+20217 ?        00:00:00 1193949.nplse.p
+20225 ?        00:00:00 ps
+ analysing bin  Topo0.50_W1085.00_Costh-0.35_DCorrect0.50_AnyErrs0.00_Pol0.50_
+npcf15

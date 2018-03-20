@@ -1,0 +1,489 @@
+mkdir: cannot create directory ‘hsana’: File exists
+Loading HSFit classes
+Loading hsmacro THSBins.C
+Info in <TUnixSystem::ACLiC>: creating shared library /scratch/chris/Eg3.15_/hsana/THSBins_C.so
+Loading hsmacro THSWeights.C
+Info in <TUnixSystem::ACLiC>: creating shared library /scratch/chris/Eg3.15_/hsana/THSWeights_C.so
+Loading hsmacro RooHSEventsPDF.C
+Info in <TUnixSystem::ACLiC>: creating shared library /scratch/chris/Eg3.15_/hsana/RooHSEventsPDF_C.so
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+Loading hsmacro RooHSEventsHistPDF.C
+Info in <TUnixSystem::ACLiC>: creating shared library /scratch/chris/Eg3.15_/hsana/RooHSEventsHistPDF_C.so
+Loading hsmacro THSRooFit.C
+Info in <TUnixSystem::ACLiC>: creating shared library /scratch/chris/Eg3.15_/hsana/THSRooFit_C.so
+Loading hsmacro THSsPlot.C
+Info in <TUnixSystem::ACLiC>: creating shared library /scratch/chris/Eg3.15_/hsana/THSsPlot_C.so
+Loading hsmacro RooHS1StepStudy.C
+Info in <TUnixSystem::ACLiC>: creating shared library /scratch/chris/Eg3.15_/hsana/RooHS1StepStudy_C.so
+Loading hsmacro RooHSsPlotAndFitStudy.C
+Info in <TUnixSystem::ACLiC>: creating shared library /scratch/chris/Eg3.15_/hsana/RooHSsPlotAndFitStudy_C.so
+Loading hsmacro RooHSStudyManager.C
+Info in <TUnixSystem::ACLiC>: creating shared library /scratch/chris/Eg3.15_/hsana/RooHSStudyManager_C.so
+
+Processing $RUNMAC...
+RooGaussian::AlphaConstrSig[ x=alpha mean=0 sigma=0.4 ] = 1
+RooGaussian::OffConstrSig[ x=off mean=0 sigma=0.4 ] = 1
+RooGaussian::ScConstrSig[ x=scale mean=1 sigma=0.04 ] = 1
+RooGaussian::AlphaConstrBG[ x=alphaB mean=0 sigma=1 ] = 1
+RooGaussian::ScConstrBG[ x=scaleB mean=1 sigma=0.03 ] = 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing RooGaussian::AlphaConstrSig
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing RooConstVar::0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing RooConstVar::0.4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing RooGaussian::OffConstrSig
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing RooGaussian::ScConstrSig
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing RooConstVar::1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing RooConstVar::0.04
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing RooGaussian::AlphaConstrBG
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing RooGaussian::ScConstrBG
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing RooConstVar::0.03
+Info in <THSsPlot::THSRooFit::FitBatchBin>: Goint to run fit from /home/chris/Docs/haspy/LatestFitting/Jan8th2017/Fitting/newEventsPDF/outBins2/Eg3.15_/
+Data chain /home/chris/Docs/haspy/LatestFitting/Jan8th2017/Fitting/newEventsPDF/outBins2/Eg3.15_//TreeData.root 10031 BinnedTree
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(BinnedTree) Ignored 464 out of range events
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing dataset BinnedTree
+THSRooFit::LoadDataSet(TTree*) Print dataset for BinnedTree
+RooDataSet::BinnedTree[Mmiss,fgID] = 9567 entries
+Info in <THSsPlot::HSRooFit::FitSaved>: Found RooHsAbsEventsPDF Sig
+MC CHAIN Sig
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Integral 5079 0 
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(hmc_model_MmissSig): fit range of variable offMmiss expanded to nearest bin boundaries: [-2.625,12.625] --> [-2.625,12.625]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(hmc_model_MmissSig): fit range of variable Valpha expanded to nearest bin boundaries: [0,2] --> [-0.002,2.002]
+RooHSEventsPDF::AddProtoData 0x539fa84 0x5341760
+RooArgSet::VarSet_0 = (Mmiss)
+RooArgSet:: = (Mmiss,fgID)
+9567
+Add branches 
+Info in <THSsPlot::HSRooFit::FitSaved>: Found RooHsAbsEventsPDF BG
+MC CHAIN BG
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+Integral 4952 0 
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(hmc_model_MmissBG): fit range of variable offMmiss expanded to nearest bin boundaries: [0,10] --> [0,10]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(hmc_model_MmissBG): fit range of variable Valpha expanded to nearest bin boundaries: [0,5] --> [-0.005,5.005]
+RooHSEventsPDF::AddProtoData 0x539fa84 0x5329b50
+RooArgSet::VarSet_0 = (Mmiss)
+RooArgSet:: = (Mmiss,fgID)
+9567
+Add branches 
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wHS) importing RooAddPdf::Eg3.15_TotalPDF0
+RooAddPdf::Eg3.15_TotalPDF0[ Yld_Sig * Sig + Yld_BG * BG ] = 6213.1
+RooRealVar::Yld_Sig = 1  L(0 - 1e+12) 
+Info in <THSsPlot::THSRooFit::Fit()>:  Starting
+RooAddPdf::Eg3.15_TotalPDF0[ Yld_Sig * Sig + Yld_BG * BG ] = 6213.1
+RooArgList:: = (AlphaConstrSig,OffConstrSig,ScConstrSig,AlphaConstrBG,ScConstrBG)
+0x5321880 : OBJ: RooCmdArg	Extended	Extended
+0x731b270 : OBJ: RooCmdArg	NumCPU	NumCPU
+0x73570b0 : OBJ: RooCmdArg	Save	Save
+0x54da020 : OBJ: RooCmdArg	Warnings	Warnings
+0x54dc1a0 : OBJ: RooCmdArg	ExternalConstraints	ExternalConstraints
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+[#1] INFO:Minization --  Including the following contraint terms in minimization: (AlphaConstrSig,OffConstrSig,ScConstrSig,AlphaConstrBG,ScConstrBG)
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_Eg3.15_TotalPDF0_BinnedTree_with_constr) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (Sig,BG)
+ **********
+ **    1 **SET PRINT           1
+ **********
+ **********
+ **    2 **SET NOGRAD
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 Yld_BG       4.78350e+03  1.91340e+03    0.00000e+00  1.91340e+04
+     2 Yld_Sig      4.78350e+03  1.91340e+03    0.00000e+00  1.91340e+04
+     3 alpha        0.00000e+00  2.00000e-01    0.00000e+00  2.00000e+00
+ MINUIT WARNING IN PARAM DEF
+ ============== STARTING VALUE IS AT LIMIT.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE3 IS AT ITS LOWER ALLOWED LIMIT.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE3 BROUGHT BACK INSIDE LIMITS.
+     4 alphaB       0.00000e+00  5.00000e-01    0.00000e+00  5.00000e+00
+ MINUIT WARNING IN PARAM DEF
+ ============== STARTING VALUE IS AT LIMIT.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE4 IS AT ITS LOWER ALLOWED LIMIT.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE4 BROUGHT BACK INSIDE LIMITS.
+     5 off          0.00000e+00  4.00000e-01   -2.00000e+00  2.00000e+00
+     6 scale        1.00000e+00  4.00000e-02    8.00000e-01  1.20000e+00
+     7 scaleB       1.00000e+00  3.00000e-02    9.00000e-01  1.20000e+00
+ **********
+ **    3 **SET ERR         0.5
+ **********
+ **********
+ **    4 **SET PRINT           1
+ **********
+ **********
+ **    5 **SET STR           1
+ **********
+ NOW USING STRATEGY  1: TRY TO BALANCE SPEED AGAINST RELIABILITY
+ **********
+ **    6 **MIGRAD        3500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE3 IS AT ITS LOWER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE4 IS AT ITS LOWER ALLOWED LIMIT.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-60031.4 FROM MIGRAD    STATUS=INITIATE       30 CALLS          31 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Yld_BG       4.78350e+03   1.91340e+03   2.35352e-01   3.28843e+02
+   2  Yld_Sig      4.78350e+03   1.91340e+03   2.35352e-01  -3.28875e+02
+   3  alpha        1.90735e-06   2.00000e-01   3.20776e-01   1.03920e+00
+   4  alphaB       4.76837e-06   5.00000e-01   3.20776e-01   4.12348e-02
+   5  off          0.00000e+00   4.00000e-01   2.01358e-01  -1.89485e+01
+   6  scale        1.00000e+00   4.00000e-02   2.01358e-01  -5.34712e+01
+   7  scaleB       1.00000e+00   3.00000e-02   2.14402e-01  -4.75055e+00
+                               ERR DEF= 0.5
+ MIGRAD FAILS TO FIND IMPROVEMENT
+ MACHINE ACCURACY LIMITS FURTHER IMPROVEMENT.
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ FCN=-60048.3 FROM MIGRAD    STATUS=CONVERGED     244 CALLS         245 TOTAL
+                     EDM=0.00104081    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.1 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Yld_BG       4.45847e+03   8.52117e+01   0.00000e+00  -3.00204e-01
+   2  Yld_Sig      5.10937e+03   8.10814e+01  -0.00000e+00   1.64038e+00
+   3  alpha        2.84189e-11   9.36696e-04  -0.00000e+00** at limit **
+   4  alphaB       5.10259e-12   5.85215e-02   0.00000e+00** at limit **
+   5  off          5.78104e-03   1.23106e-02  -0.00000e+00   5.41598e+00
+   6  scale        1.02835e+00   6.31710e-03  -0.00000e+00  -7.32503e-02
+   7  scaleB       1.00288e+00   3.68368e-03  -0.00000e+00   3.51742e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  7    ERR DEF=0.5
+  7.261e+03 -1.214e+03  2.147e-09  1.030e-07  4.112e-02 -2.198e-02  5.447e-03 
+ -1.214e+03  6.574e+03  4.758e-09  8.726e-08 -6.691e-02  1.207e-01  6.763e-03 
+  2.147e-09  4.758e-09  1.065e-13  2.111e-19  4.032e-12  1.660e-12  1.950e-13 
+  1.030e-07  8.726e-08  2.111e-19  1.199e-12 -9.957e-12  1.308e-11 -5.002e-12 
+  4.112e-02 -6.691e-02  4.032e-12 -9.957e-12  1.516e-04  5.149e-05  2.445e-06 
+ -2.198e-02  1.207e-01  1.660e-12  1.308e-11  5.149e-05  3.992e-05  1.691e-06 
+  5.447e-03  6.763e-03  1.950e-13 -5.002e-12  2.445e-06  1.691e-06  1.357e-05 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7
+        1  0.18098   1.000 -0.176  0.000  0.001  0.039 -0.041  0.017
+        2  0.40492  -0.176  1.000  0.000  0.001 -0.067  0.236  0.023
+        3  0.00105   0.000  0.000  1.000  0.000  0.001  0.001  0.000
+        4  0.00382   0.001  0.001  0.000  1.000 -0.001  0.002 -0.001
+        5  0.70124   0.039 -0.067  0.001 -0.001  1.000  0.662  0.054
+        6  0.71992  -0.041  0.236  0.001  0.002  0.662  1.000  0.073
+        7  0.07656   0.017  0.023  0.000 -0.001  0.054  0.073  1.000
+ **********
+ **    7 **SET ERR         0.5
+ **********
+ **********
+ **    8 **SET PRINT           1
+ **********
+ **********
+ **    9 **HESSE        3500
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-60048.3 FROM HESSE     STATUS=OK             56 CALLS         301 TOTAL
+                     EDM=0.000821476    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  Yld_BG       4.45847e+03   8.59593e+01   1.62006e-03  -5.63294e-01
+   2  Yld_Sig      5.10937e+03   8.96806e+01   1.62212e-03  -4.84695e-01
+   3  alpha        2.84189e-11   1.14479e-02   2.51794e-02  -1.57079e+00
+                                 WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+   4  alphaB       5.10259e-12   3.19220e-02   2.70638e-02  -1.57079e+00
+                                 WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+   5  off          5.78104e-03   1.33068e-02   1.11673e-03   2.89052e-03
+   6  scale        1.02835e+00   1.38953e-02   1.08371e-02   1.42224e-01
+   7  scaleB       1.00288e+00   4.55063e-03   5.40680e-03  -3.19514e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  7    ERR DEF=0.5
+  7.389e+03 -2.930e+03 -3.761e-06  1.496e-07 -7.676e-02  3.594e-01  2.075e-03 
+ -2.930e+03  8.043e+03  3.766e-06 -1.493e-07  7.683e-02 -3.598e-01 -2.080e-03 
+ -3.761e-06  3.766e-06  1.304e-12  2.403e-15 -2.777e-10  2.473e-09  2.753e-11 
+  1.496e-07 -1.493e-07  2.403e-15  6.529e-13 -9.687e-12 -1.360e-11  7.478e-11 
+ -7.676e-02  7.683e-02 -2.777e-10 -9.687e-12  1.771e-04 -2.138e-05  2.051e-07 
+  3.594e-01 -3.598e-01  2.473e-09 -1.360e-11 -2.138e-05  1.934e-04  1.012e-06 
+  2.075e-03 -2.080e-03  2.753e-11  7.478e-11  2.051e-07  1.012e-06  2.072e-05 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7
+        1  0.43400   1.000 -0.380 -0.038  0.002 -0.067  0.301  0.005
+        2  0.42578  -0.380  1.000  0.037 -0.002  0.064 -0.288 -0.005
+        3  0.18929  -0.038  0.037  1.000  0.003 -0.018  0.156  0.005
+        4  0.02090   0.002 -0.002  0.003  1.000 -0.001 -0.001  0.020
+        5  0.12276  -0.067  0.064 -0.018 -0.001  1.000 -0.116  0.003
+        6  0.40333   0.301 -0.288  0.156 -0.001 -0.116  1.000  0.016
+        7  0.02659   0.005 -0.005  0.005  0.020  0.003  0.016  1.000
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+1 THSRooFit::PlotDataModel() chi2 = 0.87716
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Eg3.15_TotalPDF0) directly selected PDF components: (Sig)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Eg3.15_TotalPDF0) indirectly selected PDF components: ()
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Eg3.15_TotalPDF0) directly selected PDF components: (BG)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Eg3.15_TotalPDF0) indirectly selected PDF components: ()
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+THSRooFit::FitMany  Likelihoods 
+-60048.3
+THSRooFit::FitMany() Best likelihood was -60048.3 0 so use those parameters
+
+  RooFitResult: minimized FCN value: -60048.3, estimated distance to minimum: 0.000821476
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                Yld_BG    4.4585e+03 +/-  8.60e+01
+               Yld_Sig    5.1094e+03 +/-  8.97e+01
+                 alpha    2.8419e-11 +/-  1.14e-02
+                alphaB    5.1026e-12 +/-  3.19e-02
+                   off    5.7810e-03 +/-  1.33e-02
+                 scale    1.0283e+00 +/-  1.39e-02
+                scaleB    1.0029e+00 +/-  4.55e-03
+
+Yld_Sig 5109.37
+Yld_BG 4458.47
+THSsPlot::sPlot() weights will be synchronised to branch fgID 0x4fb7800 0x53878c0
+THSsPlot::sPlot Loading ID branch data fgID
+Info in <THSsPlot::THSsPlot::sPlot()>:  about to start
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (Sig,BG)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(Eg3.15_TotalPDF0) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+[#1] INFO:InputArguments -- Printing Yields
+RooArgList:: = (Yld_Sig,Yld_BG)
+[#1] INFO:InputArguments -- yield in pdf: Yld_Sig 5107.92
+[#1] INFO:InputArguments -- yield in pdf: Yld_BG 4458.71
+[#1] INFO:Eval -- Checking Likelihood normalization:  
+[#1] INFO:Eval -- Yield of specie  Sum of Row in Matrix   Norm
+[#1] INFO:Eval -- 5107.92 5107.99 1.00001
+[#1] INFO:Eval -- 4458.71 4458.29 1.00007
+[#1] INFO:Eval -- Calculating sWeight
+THSWeights::SetFile WeightsEg3.15_.root
+THSsPlot:ExportWeights 
+Insert species Sig 0 0
+Insert species BG 1 0
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+2 THSRooFit::PlotDataModel() chi2 = 0.877333
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Eg3.15_TotalPDF0) directly selected PDF components: (Sig)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Eg3.15_TotalPDF0) indirectly selected PDF components: ()
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Eg3.15_TotalPDF0) directly selected PDF components: (BG)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Eg3.15_TotalPDF0) indirectly selected PDF components: ()
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 4.48662 1 5079
+Info in <RooHSEventsHistPDF::RooHSEventsPDF::SetEvTree>:  with namedffdfdd BinnedTree and cut 
+Made ite here anyway
+ Before the GetEntries first 
+At the fProxSet 
+Made it to the halfway point 
+RooHSEventsPDF::SetEvTree 7.98542 1 4952
+Info in <THSsPlot::THSsPlot::FitAndStudy>: Save to ResultsEg3.15_
+THSRooFit::SavePlots ResultsEg3.15_.root 0x4cc8ac0 0x98724a0
+Weights HSsWeights contains 9567 events associated file is WeightsEg3.15_.root 
+ID branch name : fgID
+Species are : 
+BG
+Sig
+The first ten entries are :
+0 1.10882 -0.108822 
+6 -0.494152 1.49406 
+16 1.16376 -0.163764 
+23 0.936834 0.0631507 
+35 -0.494152 1.49406 
+42 0.684792 0.315179 
+43 1.16086 -0.16086 
+52 -0.494152 1.49406 
+54 0.664809 0.33516 
+64 -0.494152 1.49406 
+Warning in <TTreeFormula::DefinedVariable>: Casting to primary types like "Long64_t" is not supported yet
+THSWeights::BuildIndex 9567
+Done
+THSWeights::SortWeights() reordering trees 0x9856350
+THSWeights::SortWeights() reordering trees
+THSWeights::SortWeights() entries 9567 9567
+THSWeights::SortWeights Print new ordering
+Weights HSsWeights contains 9567 events associated file is WeightsEg3.15_.root 
+ID branch name : fgID
+Species are : 
+BG
+Sig
+The first ten entries are :
+0 1.10882 -0.108822 
+6 -0.494152 1.49406 
+16 1.16376 -0.163764 
+23 0.936834 0.0631507 
+35 -0.494152 1.49406 
+42 0.684792 0.315179 
+43 1.16086 -0.16086 
+52 -0.494152 1.49406 
+54 0.664809 0.33516 
+64 -0.494152 1.49406 
+void THSWeights::Save() 0x9856350
+0x98704d0 0xa3f8700
+ THSWeights::Save() WeightsEg3.15_.root 
+******************************************************************************
+*Tree    :HSsWeights_W: Tree weights for each species                          *
+*Entries :     9567 : Total =          219156 bytes  File  Size =     114565 *
+*        :          : Tree compression factor =   1.12                       *
+******************************************************************************
+*Br    0 :Sig       : Sig/D                                                  *
+*Entries :     9567 : Total  Size=     109426 bytes  File Size  =      57051 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   1.12     *
+*............................................................................*
+*Br    1 :BG        : BG/D                                                   *
+*Entries :     9567 : Total  Size=     109416 bytes  File Size  =      57514 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   1.11     *
+*............................................................................*
+******************************************************************************
+*Tree    :HSsWeights_ID: event ids for each entry                               *
+*Entries :     9567 : Total =          109745 bytes  File  Size =      17833 *
+*        :          : Tree compression factor =   3.59                       *
+******************************************************************************
+*Br    0 :WID       : WID/L                                                  *
+*Entries :     9567 : Total  Size=     109432 bytes  File Size  =      17833 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   3.59     *
+*............................................................................*
+THSWeights::Save() Saved weights to file
+Binned    : Real Time =   5.85 seconds Cpu Time =   5.62 seconds

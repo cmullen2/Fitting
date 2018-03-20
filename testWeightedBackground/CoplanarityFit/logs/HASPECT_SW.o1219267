@@ -1,0 +1,51 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+  PID TTY          TIME CMD
+  893 ?        00:00:00 tcsh
+  929 ?        00:00:00 1219265.nplse.p
+  939 ?        00:00:00 root
+  940 ?        00:00:00 root.exe
+  967 ?        00:00:00 tcsh
+ 1003 ?        00:00:00 1219266.nplse.p
+ 1013 ?        00:00:00 root
+ 1014 ?        00:00:00 root.exe
+ 1029 ?        00:00:00 sh
+ 1041 ?        00:00:02 rootcling
+ 1045 ?        00:00:00 c++
+ 1046 ?        00:00:00 collect2
+ 1047 ?        00:00:00 ld
+ 1048 ?        00:00:00 tcsh
+ 1067 ?        00:00:00 ps
+/mnt/share/cern_CentOS7/Geant4-10.2.3-Linux/share/Geant4-10.2.3/geant4make
+Cern Root /cern/root/v6.08.06/
+AcquRoot /home/chris/acqu/acqu_user/
+GeantWorkDir /home/chris/a2geant/
+HaspectDir /home/chris/Docs/haspy/LatestFitting/Jan8th2017/HASPECT6/HaSpect/
+FILEDIR /w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolPos
+  PID TTY          TIME CMD
+  893 ?        00:00:00 tcsh
+  929 ?        00:00:00 1219265.nplse.p
+  939 ?        00:00:00 root
+  940 ?        00:00:01 root.exe
+  967 ?        00:00:00 tcsh
+ 1003 ?        00:00:00 1219266.nplse.p
+ 1013 ?        00:00:00 root
+ 1014 ?        00:00:00 root.exe
+ 1048 ?        00:00:00 tcsh
+ 1085 ?        00:00:00 sh
+ 1086 ?        00:00:00 1219267.nplse.p
+ 1087 ?        00:00:00 c++
+ 1088 ?        00:00:00 cc1plus
+ 1089 ?        00:00:00 as
+ 1097 ?        00:00:00 ps
+ analysing bin  Topo0.50_W1445.00_Costh-0.45_DCorrect0.50_AnyErrs0.00_PolStateD0.50_
+npcf17
+/w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolPos
+total 2.3M
+-rw-r--r-- 1 chris users  31K Feb 21 12:06 FarmTopo0.50_W1445.00_Costh-0.45_DCorrect0.50_AnyErrs0.00_PolStateD0.50_.log
+drwxr-xr-x 2 chris users 4.0K Feb 21 12:05 hsana
+-rw-r--r-- 1 chris users 110K Feb 21 12:06 ResultsTopo0.50_W1445.00_Costh-0.45_DCorrect0.50_AnyErrs0.00_PolStateD0.50_.root
+-rw-r--r-- 1 chris users 2.1M Feb 21 12:06 WeightsTopo0.50_W1445.00_Costh-0.45_DCorrect0.50_AnyErrs0.00_PolStateD0.50_.root
+all done and tidied up
+total 4.0K
+drwxr-xr-x 2 chris users 4.0K Feb 21 05:23 temp

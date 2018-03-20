@@ -1,0 +1,46 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+  PID TTY          TIME CMD
+ 8299 ?        00:00:00 tcsh
+ 8335 ?        00:00:00 1219207.nplse.p
+ 8345 ?        00:00:00 root
+ 8346 ?        00:00:01 root.exe
+ 8392 ?        00:00:00 tcsh
+ 8436 ?        00:00:00 1219209.nplse.p
+ 8446 ?        00:00:00 root
+ 8447 ?        00:00:01 root.exe
+ 8591 ?        00:00:02 rootcling
+ 8599 ?        00:00:01 rootcling
+ 8602 ?        00:00:00 tcsh
+ 8620 ?        00:00:00 ps
+/mnt/share/cern_CentOS7/Geant4-10.2.3-Linux/share/Geant4-10.2.3/geant4make
+Cern Root /cern/root/v6.08.06/
+AcquRoot /home/chris/acqu/acqu_user/
+GeantWorkDir /home/chris/a2geant/
+HaspectDir /home/chris/Docs/haspy/LatestFitting/Jan8th2017/HASPECT6/HaSpect/
+FILEDIR /w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolPos
+  PID TTY          TIME CMD
+ 8299 ?        00:00:00 tcsh
+ 8335 ?        00:00:00 1219207.nplse.p
+ 8345 ?        00:00:00 root
+ 8346 ?        00:00:01 root.exe
+ 8392 ?        00:00:00 tcsh
+ 8436 ?        00:00:00 1219209.nplse.p
+ 8446 ?        00:00:00 root
+ 8447 ?        00:00:01 root.exe
+ 8591 ?        00:00:02 rootcling
+ 8599 ?        00:00:01 rootcling
+ 8602 ?        00:00:00 tcsh
+ 8638 ?        00:00:00 1219216.nplse.p
+ 8646 ?        00:00:00 ps
+ analysing bin  Topo0.50_W1175.00_Costh0.45_DCorrect0.50_AnyErrs0.00_PolStateD0.50_
+npcf13
+/w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolPos
+total 2.0M
+-rw-r--r-- 1 chris users  31K Feb 21 12:03 FarmTopo0.50_W1175.00_Costh0.45_DCorrect0.50_AnyErrs0.00_PolStateD0.50_.log
+drwxr-xr-x 2 chris users 4.0K Feb 21 12:01 hsana
+-rw-r--r-- 1 chris users 110K Feb 21 12:03 ResultsTopo0.50_W1175.00_Costh0.45_DCorrect0.50_AnyErrs0.00_PolStateD0.50_.root
+-rw-r--r-- 1 chris users 1.9M Feb 21 12:03 WeightsTopo0.50_W1175.00_Costh0.45_DCorrect0.50_AnyErrs0.00_PolStateD0.50_.root
+all done and tidied up
+total 4.0K
+drwxr-xr-x 2 chris users 4.0K Feb 21 05:17 temp

@@ -1,0 +1,43 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+  PID TTY          TIME CMD
+26454 ?        00:00:00 tcsh
+26490 ?        00:00:00 1218837.nplse.p
+26500 ?        00:00:00 root
+26501 ?        00:00:19 root.exe
+26754 ?        00:00:00 tcsh
+26790 ?        00:00:00 1218857.nplse.p
+26800 ?        00:00:00 root
+26801 ?        00:00:00 root.exe
+26824 ?        00:00:02 rootcling
+26827 ?        00:00:00 tcsh
+26845 ?        00:00:00 ps
+/mnt/share/cern_CentOS7/Geant4-10.2.3-Linux/share/Geant4-10.2.3/geant4make
+Cern Root /cern/root/v6.08.06/
+AcquRoot /home/chris/acqu/acqu_user/
+GeantWorkDir /home/chris/a2geant/
+HaspectDir /home/chris/Docs/haspy/LatestFitting/Jan8th2017/HASPECT6/HaSpect/
+FILEDIR /w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolNeg
+  PID TTY          TIME CMD
+26454 ?        00:00:00 tcsh
+26490 ?        00:00:00 1218837.nplse.p
+26500 ?        00:00:00 root
+26501 ?        00:00:19 root.exe
+26754 ?        00:00:00 tcsh
+26790 ?        00:00:00 1218857.nplse.p
+26800 ?        00:00:00 root
+26801 ?        00:00:00 root.exe
+26824 ?        00:00:02 rootcling
+26827 ?        00:00:00 tcsh
+26863 ?        00:00:00 1218858.nplse.p
+26871 ?        00:00:00 ps
+ analysing bin  Topo0.50_W1355.00_Costh0.65_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_
+npcf17
+/w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolNeg
+total 160K
+-rw-r--r-- 1 chris users  26K Feb 21 11:12 FarmTopo0.50_W1355.00_Costh0.65_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_.log
+drwxr-xr-x 2 chris users 4.0K Feb 21 11:11 hsana
+-rw-r--r-- 1 chris users 127K Feb 21 11:12 WeightsTopo0.50_W1355.00_Costh0.65_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_.root
+all done and tidied up
+total 4.0K
+drwxr-xr-x 2 chris users 4.0K Feb 21 05:23 temp

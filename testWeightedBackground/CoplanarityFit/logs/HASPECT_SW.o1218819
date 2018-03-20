@@ -1,0 +1,43 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+  PID TTY          TIME CMD
+25431 ?        00:00:00 tcsh
+25468 ?        00:00:00 1218769.nplse.p
+25478 ?        00:00:00 root
+25479 ?        00:02:17 root.exe
+25669 ?        00:00:00 tcsh
+25705 ?        00:00:00 1218788.nplse.p
+25715 ?        00:00:00 root
+25716 ?        00:00:58 root.exe
+25955 ?        00:00:00 tcsh
+25973 ?        00:00:00 ps
+/mnt/share/cern_CentOS7/Geant4-10.2.3-Linux/share/Geant4-10.2.3/geant4make
+Cern Root /cern/root/v6.08.06/
+AcquRoot /home/chris/acqu/acqu_user/
+GeantWorkDir /home/chris/a2geant/
+HaspectDir /home/chris/Docs/haspy/LatestFitting/Jan8th2017/HASPECT6/HaSpect/
+FILEDIR /w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolNeg
+  PID TTY          TIME CMD
+25431 ?        00:00:00 tcsh
+25468 ?        00:00:00 1218769.nplse.p
+25478 ?        00:00:00 root
+25479 ?        00:02:17 root.exe
+25669 ?        00:00:00 tcsh
+25705 ?        00:00:00 1218788.nplse.p
+25715 ?        00:00:00 root
+25716 ?        00:00:58 root.exe
+25955 ?        00:00:00 tcsh
+25991 ?        00:00:00 1218819.nplse.p
+25999 ?        00:00:00 ps
+ analysing bin  Topo0.50_W1175.00_Costh0.75_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_
+npcf10
+/w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolNeg
+total 2.1M
+-rw-r--r-- 1 chris users  29K Feb 21 11:10 FarmTopo0.50_W1175.00_Costh0.75_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_.log
+drwxr-xr-x 2 chris users 4.0K Feb 21 11:08 hsana
+-rw-r--r-- 1 chris users 110K Feb 21 11:10 ResultsTopo0.50_W1175.00_Costh0.75_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_.root
+-rw-r--r-- 1 chris users 2.0M Feb 21 11:10 WeightsTopo0.50_W1175.00_Costh0.75_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_.root
+all done and tidied up
+total 8.0K
+drwxr-xr-x 2 chris users 4.0K Feb 21 05:21 temp
+drwxr-xr-x 3 chris users 4.0K Feb 21 11:07 Topo0.50_W1175.00_Costh0.95_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_

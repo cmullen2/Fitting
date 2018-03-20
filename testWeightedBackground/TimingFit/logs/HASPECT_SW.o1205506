@@ -1,0 +1,41 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+  PID TTY          TIME CMD
+25801 ?        00:00:00 tcsh
+25837 ?        00:00:00 1205496.nplse.p
+25847 ?        00:00:00 root
+25848 ?        00:00:02 root.exe
+25951 ?        00:00:00 sh
+25952 ?        00:00:00 c++
+25953 ?        00:00:03 cc1plus
+25954 ?        00:00:00 as
+25955 ?        00:00:00 tcsh
+25973 ?        00:00:00 ps
+/mnt/share/cern_CentOS7/Geant4-10.2.3-Linux/share/Geant4-10.2.3/geant4make
+Cern Root /cern/root/v6.08.06/
+AcquRoot /home/chris/acqu/acqu_user/
+GeantWorkDir /home/chris/a2geant/
+HaspectDir /home/chris/Docs/haspy/LatestFitting/Jan8th2017/HASPECT6/HaSpect/
+FILEDIR /w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolNeg
+  PID TTY          TIME CMD
+25801 ?        00:00:00 tcsh
+25837 ?        00:00:00 1205496.nplse.p
+25847 ?        00:00:00 root
+25848 ?        00:00:02 root.exe
+25951 ?        00:00:00 sh
+25952 ?        00:00:00 c++
+25953 ?        00:00:03 cc1plus
+25954 ?        00:00:00 as
+25955 ?        00:00:00 tcsh
+25991 ?        00:00:00 1205506.nplse.p
+25999 ?        00:00:00 ps
+ analysing bin  Topo0.50_W1625.00_Costh-0.65_DCorrect0.50_AnyErrs0.00_Pol-0.50_
+npcf08
+/w/work1/home/chris/LatestAnalysisRuns/Data/DataJul17/HaspectOutput/Fitting/All3Binned20FilesProtonW10Costh20PolNeg
+total 608K
+-rw-r--r-- 1 chris users  20K Feb 19 09:58 FarmTopo0.50_W1625.00_Costh-0.65_DCorrect0.50_AnyErrs0.00_Pol-0.50_.log
+drwxr-xr-x 2 chris users 4.0K Feb 19 09:58 hsana
+-rw-r--r-- 1 chris users 107K Feb 19 09:58 ResultsTopo0.50_W1625.00_Costh-0.65_DCorrect0.50_AnyErrs0.00_Pol-0.50_.root
+-rw-r--r-- 1 chris users 473K Feb 19 09:58 WeightsTopo0.50_W1625.00_Costh-0.65_DCorrect0.50_AnyErrs0.00_Pol-0.50_.root
+all done and tidied up
+total 0
