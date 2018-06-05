@@ -11,7 +11,7 @@ void HSSubmitBatch(){
   gSystem->Setenv("RUNMAC", TString(gSystem->Getenv("PWD"))+"/TimingFitData.C");
   // gInterpreter->AddIncludePath("./*");
   TString FitName = "TimingProton";
- // TString FitName = "TimingNeutron";
+//  TString FitName = "TimingNeutron";
   cout << " Performing Fit  "<< FitName << endl;
   gSystem->Setenv("FITNAME",FitName);
   gSystem->Exec("mkdir $FILEDIR/$FITNAME"); 

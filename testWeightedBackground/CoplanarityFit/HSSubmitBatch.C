@@ -10,13 +10,14 @@ void HSSubmitBatch(){
  
   gSystem->Setenv("RUNMAC", TString(gSystem->Getenv("PWD"))+"/CoplanarityFitFarm.C");
   // gInterpreter->AddIncludePath("./*");
-  TString FitName = "Coplanarity";
+  TString FitName = "CoplanarityTwoPion";
   cout << " Performing Fit  "<< FitName << endl;
   gSystem->Setenv("FITNAME",FitName);
   gSystem->Exec("mkdir $FILEDIR/$FITNAME"); 
 
  //Get Previous fit name to determine weights
   TString PrevFitName = "TimingProton";
+ // TString PrevFitName = "TimingNeutron";
   cout << "Previous fit directory to take weights from is " << PrevFitName << endl;
   gSystem->Setenv("PREVFITNAME",PrevFitName);
 

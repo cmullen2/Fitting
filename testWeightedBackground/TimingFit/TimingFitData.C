@@ -25,7 +25,7 @@
 
   gBenchmark->Start("Binned");
 //  RF->FitSavedBins(2);//argument gives number of parameter fits to perform
-  RF->FitBatchBin(1);
+  RF->FitBatchBin(1,"Data");
   gBenchmark->Stop("Binned");
   gBenchmark->Print("Binned");
 
