@@ -1,0 +1,9 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+/mnt/share/cern_CentOS7/Geant4-10.2.3-Linux/share/Geant4-10.2.3/geant4make
+Cern Root /cern/root/v6.08.06/
+AcquRoot /home/chris/acqu/acqu_user/
+GeantWorkDir /home/chris/a2geant/
+HaspectDir /home/chris/Docs/haspy/LatestFitting/Jan8th2017/HASPECT6/HaSpect/
+ analysing bin  Topo0.50_W1175.00_Costh0.95_DCorrect0.50_AnyErrs0.00_PolStateD-0.50_
+npcf11
